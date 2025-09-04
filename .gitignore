@@ -1,0 +1,30 @@
+# 🔐 敏感資訊保護
+.env
+*.key
+config/secrets/
+
+# 📊 資料保護
+data/input/Bauma_exhibitors_2025*.xlsx
+data/input/real_*.xlsx
+outputs/runs/*
+!outputs/runs/.gitkeep
+
+# 📝 執行記錄
+logs/*.log
+*.log
+
+# 🐍 Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 🍎 系統文件
+.DS_Store
+Thumbs.db
+
+# 💻 IDE設定
+.vscode/
+.idea/
+*.swp
